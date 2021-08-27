@@ -22,6 +22,7 @@ To run within a Docker Container in NGINX
 To build the docker app locally
   
 FROM ANACONDA - switch to Py37 and Open a Terminal Window
+
 pip install -r requirements.txt
 docker build -t my_flask_app .
 
