@@ -24,9 +24,11 @@ To build the docker app locally
 FROM ANACONDA - switch to Py37 and Open a Terminal Window
 
 pip install -r requirements.txt
+  
 docker build -t my_flask_app .
 
 To run the docker app locally
+  
 Docker run -p 8100:80 -t my_flask_app .
 
 Connect from web browser to 127.0.0.1:8100
