@@ -6,6 +6,7 @@ Start Anaconda, Create a py37 env.
 Open TERMINAL…
 
 conda install -c anaconda flask
+
 conda activate <py37-env-name>
 
 pip install spacy==2.1.8
@@ -18,7 +19,7 @@ pip install chatterbot
 
 Put Index.html in templates folder
   
-Python WebApp.py
+python main.py
 
 **To run within a Docker Container in NGINX**
 To build the docker app locally
